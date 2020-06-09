@@ -2,7 +2,7 @@
 Input: an integer
 Returns: an integer
 '''
-def eating_cookies(n):
+def eating_cookies(n, cache=None):
     # Your code here
     ns = [1,1,2]
     combos = 0
